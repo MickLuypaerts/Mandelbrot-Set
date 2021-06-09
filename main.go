@@ -1,25 +1,25 @@
 package main
 
 import (
-	"math/cmplx"
 	"image"
 	"image/color"
 	"image/png"
+	"math/cmplx"
 	"os"
 )
 
 
-const MAX_ITER = 80
+const (
+	MAX_ITER = 80
 
-const IMG_WIDTH = 600
-const IMG_HEIGHT = 400
+	IMG_WIDTH = 600
+	IMG_HEIGHT = 400
 
-const RE_START = -2
-const RE_END = 1
-const IM_START = -1
-const IM_END = 1
-
-
+	RE_START = -2
+	RE_END = 1
+	IM_START = -1
+	IM_END = 1
+)
 
 
 func main() {
