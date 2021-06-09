@@ -23,10 +23,13 @@ const IM_END = 1
 
 
 func main() {
+	createImage()
 
+}
+
+func createImage() {
 	upLeft := image.Point{0,0}
 	lowRight := image.Point{IMG_WIDTH, IMG_HEIGHT}
-
 	img := image.NewRGBA(image.Rectangle{upLeft, lowRight})
 
 	// Set color for each pixel.
